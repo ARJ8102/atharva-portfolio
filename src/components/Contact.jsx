@@ -19,7 +19,6 @@ function Contact() {
 
           <div className="contact-details">
             <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
-            <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a>
             <span>{personalInfo.location}</span>
           </div>
 

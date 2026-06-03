@@ -30,7 +30,15 @@ function Projects() {
                 <p>{project.category}</p>
               </div>
 
-              <span className="project-arrow">→</span>
+              <a
+                className="project-arrow"
+                href={project.demo || project.github}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`Open ${project.title}`}
+              >
+                →
+              </a>
             </div>
 
             <p className="project-description">{project.description}</p>

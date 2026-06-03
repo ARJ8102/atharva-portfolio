@@ -1,11 +1,10 @@
 export const personalInfo = {
   name: "Atharva Jadhav",
   role: "AI/ML Engineer",
-  email: "your.email@example.com",
-  phone: "+1 XXX-XXX-XXXX",
+  email: "atharvarjofficial@gmail.com",
   location: "Clemson, SC",
-  github: "https://github.com/your-github",
-  linkedin: "https://linkedin.com/in/your-linkedin",
+  github: "https://github.com/ARJ8102",
+  linkedin: "https://www.linkedin.com/in/atharvarj/",
   resume: "/Atharva_Jadhav_Resume.pdf",
   intro:
     "Computer Science graduate with experience in machine learning, deep learning, data analysis, and full-stack AI applications. I build practical ML systems, research-driven models, and clean user-facing applications.",
@@ -39,28 +38,20 @@ export const aboutInfo = {
 
 export const experiences = [
   {
-    period: "2022–2023",
+    period: "Oct 2025–Present",
+    role: "Machine Learning Researcher",
+    organization: "NanoBio Mechanics and Manufacturing Lab",
+    type: "Clemson, SC",
+    description:
+      "Developed ML models for filtration optimization using morphology features from SEM imaging and experimental data. Built data processing pipelines for feature extraction enabling data-driven materials science optimization insights.",
+  },
+  {
+    period: "Jul 2022–Jul 2023",
     role: "Data Science Intern",
     organization: "CodeBita Technology",
-    type: "Internship",
+    type: "Pune, India",
     description:
-      "Built predictive machine learning models, performed exploratory data analysis, created data pipelines, and developed dashboards to support business insights and decision-making.",
-  },
-  {
-    period: "2023–2025",
-    role: "M.S. Computer Science",
-    organization: "Clemson University",
-    type: "Graduate Study",
-    description:
-      "Focused on machine learning, deep learning, artificial intelligence, human-centered AI, software development, and research-oriented projects involving NLP, recommender systems, and computer vision.",
-  },
-  {
-    period: "2024–2026",
-    role: "AI/ML Projects & Research",
-    organization: "Independent / Academic Projects",
-    type: "Project Work",
-    description:
-      "Designed and implemented end-to-end AI projects including PFAS removal prediction, movie recommendation systems, legal document analysis, emotion classification, and medical image classification.",
+      "Built predictive ML models and analytics pipelines supporting business intelligence and operational decision-making. Automated data preprocessing workflows and created interactive dashboards for stakeholder metric visualization.",
   },
 ];
 

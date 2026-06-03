@@ -2,14 +2,19 @@ import { personalInfo } from "../data/portfolioData";
 
 function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <div className="hero-left">
         <header className="hero-nav">
           <div className="circle-logo">A</div>
 
-          <a className="resume-btn" href={personalInfo.resume}>
-            Download PDF Resume
-          </a>
+          <a
+  className="resume-btn"
+  href={personalInfo.resume}
+  target="_blank"
+  rel="noreferrer"
+>
+  Download PDF Resume
+</a>
         </header>
 
         <div className="hero-text">
@@ -24,10 +29,8 @@ function Hero() {
       </div>
 
       <div className="hero-right">
-        <div className="hero-photo-placeholder">
-          <span>AJ</span>
-        </div>
-      </div>
+  <img className="hero-photo" src="/profile3.jpg" alt="Atharva Jadhav" />
+</div>
 
       <div className="contact-strip">
         <div className="contact-item">
@@ -36,18 +39,17 @@ function Hero() {
         </div>
 
         <div className="contact-item">
-          <span className="contact-icon">☎</span>
-          <span>{personalInfo.phone}</span>
-        </div>
-
-        <div className="contact-item">
           <span className="contact-icon">⌂</span>
-          <span>www.atharvajadhav.com</span>
+          <span>{personalInfo.location}</span>
         </div>
 
         <div className="social-links">
-          <a href={personalInfo.github}>GH</a>
-          <a href={personalInfo.linkedin}>in</a>
+          <a href={personalInfo.github} target="_blank" rel="noreferrer">
+            GH
+          </a>
+          <a href={personalInfo.linkedin} target="_blank" rel="noreferrer">
+            in
+          </a>
         </div>
       </div>
     </section>
