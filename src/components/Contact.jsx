@@ -38,8 +38,14 @@ function Contact() {
   method="POST"
   action="/thank-you.html"
   data-netlify="true"
+  netlify-honeypot="bot-field"
 >
   <input type="hidden" name="form-name" value="contact" />
+  <p hidden>
+    <label>
+      Do not fill this out: <input name="bot-field" />
+    </label>
+  </p>
 
   <div className="form-row">
     <input type="text" name="name" placeholder="Your Name" required />
