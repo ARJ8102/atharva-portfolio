@@ -32,18 +32,25 @@ function Contact() {
           </div>
         </div>
 
-        <form className="contact-form">
-          <div className="form-row">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-          </div>
+       <form
+  className="contact-form"
+  name="contact"
+  method="POST"
+  data-netlify="true"
+>
+  <input type="hidden" name="form-name" value="contact" />
 
-          <input type="text" placeholder="Subject" />
+  <div className="form-row">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+  </div>
 
-          <textarea placeholder="Message" rows="6"></textarea>
+  <input type="text" name="subject" placeholder="Subject" required />
 
-          <button type="button">Send Message →</button>
-        </form>
+  <textarea name="message" placeholder="Message" rows="6" required></textarea>
+
+  <button type="submit">Send Message →</button>
+</form>
       </div>
 
       <footer className="footer">
