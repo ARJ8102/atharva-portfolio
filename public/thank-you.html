@@ -5,52 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Message Sent | Atharva Jadhav</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
         min-height: 100vh;
         display: grid;
         place-items: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
         background: #f2f2f2;
         color: #111111;
       }
 
       .card {
-        width: min(520px, calc(100% - 32px));
-        background: white;
-        padding: 42px;
-        border-radius: 18px;
-        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.08);
+        width: min(620px, calc(100% - 32px));
+        background: #ffffff;
+        padding: 54px 48px;
+        border-radius: 24px;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.08);
         text-align: center;
       }
 
+      .logo {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto 28px;
+        border-radius: 50%;
+        background: #ff4b12;
+        color: #ffffff;
+        display: grid;
+        place-items: center;
+        font-size: 2.4rem;
+        font-weight: 800;
+      }
+
       h1 {
-        margin: 0 0 14px;
-        font-size: 2.2rem;
+        margin: 0 0 16px;
+        font-size: clamp(2rem, 4vw, 3rem);
+        line-height: 1.1;
+        letter-spacing: -0.04em;
       }
 
       p {
         color: #747b84;
-        line-height: 1.6;
-        margin-bottom: 28px;
+        line-height: 1.7;
+        margin: 0 auto 34px;
+        max-width: 430px;
+        font-size: 1rem;
       }
 
       a {
         display: inline-block;
         text-decoration: none;
         background: #ff4b12;
-        color: white;
-        padding: 14px 24px;
+        color: #ffffff;
+        padding: 15px 26px;
         border-radius: 999px;
         font-weight: 600;
       }
+
+      a:hover {
+        background: #000000;
+      }
     </style>
   </head>
+
   <body>
-    <div class="card">
+    <main class="card">
+      <div class="logo">A</div>
       <h1>Message sent!</h1>
-      <p>Thank you for reaching out. I will get back to you soon.</p>
+      <p>
+        Thank you for reaching out. I received your message and will get back to
+        you as soon as I can.
+      </p>
       <a href="/">Back to portfolio</a>
-    </div>
+    </main>
   </body>
 </html>
