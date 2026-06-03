@@ -32,7 +32,7 @@ function Contact() {
           </div>
         </div>
 
-       <form
+<form
   className="contact-form"
   name="contact"
   method="POST"
