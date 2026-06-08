@@ -135,7 +135,7 @@ export const projects = [
     category: "Machine Learning / Recommender System",
     image: "movie-recommender",
     github: "https://github.com/your-username/movie-recommender",
-    demo: "https://emotionclassifierrrr.streamlit.app/",
+    demo: "",
     description:
       "Hybrid recommendation system using content-based filtering and collaborative filtering with an interactive user interface.",
   },
