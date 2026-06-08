@@ -125,7 +125,7 @@ export const projects = [
     title: "Emotion Classifier using DistilBERT",
     category: "Transformers / NLP",
     image: "emotion-classifier",
-    github: "https://github.com/your-username/emotion-classifier",
+    github: "https://github.com/ARJ8102/emotion_classifier/tree/main/emotion-classifier",
     demo: "https://github.com/your-username/emotion-classifier",
     description:
       "Transformer-based emotion classification model using DistilBERT, Hugging Face Transformers, and PyTorch.",
@@ -135,7 +135,7 @@ export const projects = [
     category: "Machine Learning / Recommender System",
     image: "movie-recommender",
     github: "https://github.com/your-username/movie-recommender",
-    demo: "https://github.com/your-username/movie-recommender",
+    demo: "https://emotionclassifierrrr.streamlit.app/",
     description:
       "Hybrid recommendation system using content-based filtering and collaborative filtering with an interactive user interface.",
   },
