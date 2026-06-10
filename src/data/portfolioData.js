@@ -131,13 +131,13 @@ export const projects = [
       "Transformer-based emotion classification model using DistilBERT, Hugging Face Transformers, and PyTorch.",
   },
   {
-    title: "Personalized Movie Recommendation System",
-    category: "Machine Learning / Recommender System",
+    title: "Distributed LLM Training Framework",
+    category: "Machine Learning / LLM",
     image: "movie-recommender",
-    github: "https://github.com/your-username/movie-recommender",
-    demo: "",
+    github: "https://github.com/ARJ8102/llm_train",
+    demo: "https://atharvarj-llm-training-dashboard.hf.space/",
     description:
-      "Hybrid recommendation system using content-based filtering and collaborative filtering with an interactive user interface.",
+      "A production-style framework for training, evaluating, and comparing GPT-style language models using multiple distributed training strategies.",
   },
   {
     title: "PFAS / Nanofiber Machine Learning Research",
