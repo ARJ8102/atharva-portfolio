@@ -161,8 +161,8 @@ export const projects = [
     title: "Legal Document AI Analysis",
     category: "NLP / Document Intelligence",
     image: "legal-ai",
-    github: "https://github.com/your-username/legal-document-ai",
-    demo: "https://github.com/your-username/legal-document-ai",
+    github: "https://github.com/ARJ8102/Legal_AI_Argument_Mining",
+    demo: "https://atharvarj-legal-ai-argument-mining.hf.space/",
     description:
       "NLP pipeline for OCR, legal document parsing, named entity recognition, and argument mining workflows.",
   },
