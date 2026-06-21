@@ -133,7 +133,7 @@ export const projects = [
   {
     title: "Distributed LLM Training Framework",
     category: "Machine Learning / LLM",
-    image: "movie-recommender",
+    image: "llm_training",
     github: "https://github.com/ARJ8102/llm_train",
     demo: "https://atharvarj-llm-training-dashboard.hf.space/",
     description:
@@ -167,13 +167,13 @@ export const projects = [
       "NLP pipeline for OCR, legal document parsing, named entity recognition, and argument mining workflows.",
   },
   {
-    title: "Customer Churn Platform",
+    title: "Heard Disease Prediction",
     category: "MLOps / Deployment",
-    image: "churn-platform",
-    github: "https://github.com/your-username/customer-churn-platform",
-    demo: "https://github.com/your-username/customer-churn-platform",
+    image: "heart_disease",
+    github: "https://github.com/ARJ8102/heart-disease-prediction-flask",
+    demo: "https://heart-disease-prediction-flask-evsj.onrender.com/",
     description:
-      "Machine learning platform structure for churn prediction with database setup, scripts, and deployment-oriented project organization.",
+      "Full-stack machine learning web application for heart disease risk prediction with Flask backend, Random Forest model, authentication, and Render deployment.",
   },
 ];
 

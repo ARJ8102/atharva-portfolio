@@ -1003,7 +1003,7 @@
   filter: drop-shadow(0 18px 24px rgba(0, 0, 0, 0.12));
 }
 
-.project-image.movie-recommender {
+.project-image.llm_training {
   background: linear-gradient(135deg, #fff1d8, #ffc06a);
 }
 
@@ -1023,7 +1023,7 @@
   background: linear-gradient(135deg, #fff6d8, #ffd966);
 }
 
-.project-image.churn-platform {
+.project-image.heart_disease {
   background: linear-gradient(135deg, #eaf2ff, #9fc4ff);
 }
 

@@ -1,12 +1,12 @@
 import { projects } from "../data/portfolioData";
 
 const projectVisuals = {
-  "movie-recommender": "🎬",
+  "llm_training": "🤖",
   "pfas-ml": "🧪",
   "plaque-classify": "🫀",
   "legal-ai": "⚖️",
   "emotion-classifier": "😊",
-  "churn-platform": "📊",
+  "heart_disease": "❤️",
 };
 
 function Projects() {
