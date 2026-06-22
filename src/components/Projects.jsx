@@ -3,7 +3,7 @@ import { projects } from "../data/portfolioData";
 const projectVisuals = {
   "llm_training": "🤖",
   "pfas-ml": "🧪",
-  "plaque-classify": "🫀",
+  "plaque-classify": "🌐",
   "legal-ai": "⚖️",
   "emotion-classifier": "😊",
   "heart_disease": "❤️",

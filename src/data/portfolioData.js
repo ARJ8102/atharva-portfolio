@@ -149,11 +149,11 @@ export const projects = [
       "Literature-derived experimental dataset and ML models for predicting material performance using nanofiber-based systems.",
   },
   {
-    title: "PlaqueClassify",
-    category: "Computer Vision / Medical AI",
+    title: "Multi language Image Captioning",
+    category: "Computer Vision / Multimodal AI",
     image: "plaque-classify",
-    github: "https://github.com/your-username/plaqueclassify",
-    demo: "https://github.com/your-username/plaqueclassify",
+    github: "https://github.com/ARJ8102/Multilanguage_Image_Captioning",
+    demo: "https://atharvarj-multilanguage-image-captioning.hf.space/",
     description:
       "End-to-end coronary artery X-ray image classification project with model training and deployment planning.",
   },
