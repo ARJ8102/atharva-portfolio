@@ -45,14 +45,14 @@ export const experiences = [
     description:
       "Developed ML models for filtration optimization using morphology features from SEM imaging and experimental data. Built data processing pipelines for feature extraction enabling data-driven materials science optimization insights.",
   },
-  {
+  /*{
     period: "Jul 2022–Jul 2023",
     role: "Data Science Intern",
     organization: "CodeBita Technology",
     type: "Pune, India",
     description:
       "Built predictive ML models and analytics pipelines supporting business intelligence and operational decision-making. Automated data preprocessing workflows and created interactive dashboards for stakeholder metric visualization.",
-  },
+  },*/
 ];
 
 
@@ -121,6 +121,17 @@ export const skills = [
 
 
 export const projects = [
+
+  {
+    title: "Adaptive Few-Shot Vision System",
+    category: "Computer Vision / MLOps",
+    image: "pfas-ml",
+    github: "https://github.com/ARJ8102/Object_Identification_Drift_Monitoring",
+    demo: "https://atharvarj-few-shot-object-identification.hf.space/",
+    description:
+      "Production-ready few-shot image classification system built with CLIP embeddings and Prototypical Networks. Features real-time embedding drift and class ambiguity detection, experiment tracking with MLflow, and confidence monitoring using Evidently AI..",
+  },
+
   {
     title: "Emotion Classifier using DistilBERT",
     category: "Transformers / NLP",
@@ -139,7 +150,7 @@ export const projects = [
     description:
       "A production-style framework for training, evaluating, and comparing GPT-style language models using multiple distributed training strategies.",
   },
-  {
+  /*{
     title: "PFAS / Nanofiber Machine Learning Research",
     category: "Scientific Machine Learning",
     image: "pfas-ml",
@@ -147,7 +158,7 @@ export const projects = [
     demo: "https://github.com/your-username/pfas-nanofiber-ml",
     description:
       "Literature-derived experimental dataset and ML models for predicting material performance using nanofiber-based systems.",
-  },
+  },*/
   {
     title: "Multi language Image Captioning",
     category: "Computer Vision / Multimodal AI",
